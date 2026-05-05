@@ -24,6 +24,7 @@ podman compose version
 Docker:
 ```bash
 docker compose build --no-cache app
+sudo docker build -f ./DockerFile .
 docker compose up --abort-on-container-exit 
 ```
 
